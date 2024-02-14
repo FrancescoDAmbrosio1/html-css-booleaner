@@ -1,0 +1,12 @@
+.header-intestazione{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(116, 182, 236);
+}
+
+.intestazione-logo{
+    height: 50px;
+    padding: 10px;
+    margin: 40px;
+
+}
