@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 .header-intestazione{
@@ -18,7 +19,7 @@
 }
 
 .corpo-articolo{
-    margin: 10px;
+    margin: 20px;
 }
 
 .titolo{
@@ -30,7 +31,6 @@
 }
 
 .sottotitolo-principale{
-    font-size: 15px;
     color: grey;
 }
 
@@ -42,4 +42,47 @@
 .didascalia{
     font-size: 12px;
     color: grey;
+}
+
+.immagini{
+    margin-bottom: 20px;
+}
+
+.evidenziatura-gialla{
+    background-color: yellow;
+}
+
+.articolo-unlist{
+    padding: 20px;
+    margin: 30px auto;
+}
+.corpo-articolo-tabella{
+    width: 100%;
+    text-align: left;
+}
+
+.tabella-head-colonna1{
+    width: 25%;
+    color: white;
+    background-color: rgb(76, 149, 251);
+}
+
+.tabella-head-colonna2{
+    width: 25%;
+    color: white;
+    background-color: rgb(76, 149, 251);
+}
+
+.tabella-head-colonna3{
+    width: 50%;
+    color: white;
+    background-color: rgb(76, 149, 251);
+}
+
+.tabella-riga-dispari{
+    background-color: rgb(235, 235, 235);
+}
+
+.tabella-riga-pari{
+    background-color: white;
 }
