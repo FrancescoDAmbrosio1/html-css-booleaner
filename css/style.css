@@ -86,3 +86,10 @@
 .tabella-riga-pari{
     background-color: white;
 }
+.copyright{
+    margin-top: 40px;
+    background-color: rgb(46, 46, 200);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
