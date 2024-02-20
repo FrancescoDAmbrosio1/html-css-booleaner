@@ -1,13 +1,13 @@
-*{
-    margin: 0;
+*{  margin: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
+/* HEADER */
 .header-intestazione{
-    height: 150px;
+    /* height: 150px;
     width: 100%;
-   
+    */
     background-color: rgb(116, 182, 236);
 }
 
@@ -17,9 +17,12 @@
     margin: 40px;
 
 }
+/* /HEADER */
 
+/* MAIN */
 .corpo-articolo{
-    margin: 20px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .titolo{
@@ -58,6 +61,7 @@
 }
 .corpo-articolo-tabella{
     width: 100%;
+    margin-left: 0;
     text-align: left;
 }
 
@@ -86,6 +90,9 @@
 .tabella-riga-pari{
     background-color: white;
 }
+/* /MAIN */
+
+/* FOOTER */
 .copyright{
     margin-top: 40px;
     background-color: rgb(46, 46, 200);
