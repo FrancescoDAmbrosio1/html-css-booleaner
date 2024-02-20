@@ -64,32 +64,26 @@
     margin-left: 0;
     text-align: left;
 }
-
-.tabella-head-colonna1{
-    width: 25%;
+.tabella-head{
     color: white;
     background-color: rgb(76, 149, 251);
 }
-
-.tabella-head-colonna2{
+.tabella-head.colonna25pcent{
     width: 25%;
-    color: white;
-    background-color: rgb(76, 149, 251);
 }
 
-.tabella-head-colonna3{
+.tabella-head.colonna50pcent{
     width: 50%;
-    color: white;
-    background-color: rgb(76, 149, 251);
 }
 
-.tabella-riga-dispari{
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
     background-color: rgb(235, 235, 235);
 }
 
-.tabella-riga-pari{
-    background-color: white;
-}
 /* /MAIN */
 
 /* FOOTER */
